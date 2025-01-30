@@ -29,7 +29,7 @@
 ## Project setup
 
 ```bash
-$ npm install
+$ nest new .
 ```
 
 ## Compile and run the project
