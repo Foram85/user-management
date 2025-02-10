@@ -38,7 +38,7 @@ export class TasksController {
     @Query() filterDto: UpdateTaskDto,
     @GetUser() user: User,
   ): Promise<Tasks[]> {
-    return this.tasksService.getTasks(filterDto, user);
+    return this.tasksService.getAll(filterDto, user);
   }
 
   @Get(':id')
